@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14A388a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LeftHomeView" customModule="Oduwa_Edo_Osagie" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GGM-M1-hkA">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                    <color key="backgroundColor" red="0.3411764706" green="0.86274509799999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V7I-fb-cK0">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interests" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="poa-kp-UJe">
+                            <rect key="frame" x="193" y="145" width="94" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="laptop.png" translatesAutoresizingMaskIntoConstraints="NO" id="EM2-Ai-Rda">
+                            <rect key="frame" x="210" y="26" width="60" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="2yM-cI-er0"/>
+                                <constraint firstAttribute="height" constant="60" id="VJ3-tg-9DU"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="guitar.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Lg-RC-ueJ">
+                            <rect key="frame" x="98" y="214" width="60" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="UDp-9m-QGb"/>
+                                <constraint firstAttribute="width" constant="60" id="czw-Yu-eHv"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clipperboard.png" translatesAutoresizingMaskIntoConstraints="NO" id="irS-KE-C2D">
+                            <rect key="frame" x="37" y="137" width="60" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="fbz-SM-jAR"/>
+                                <constraint firstAttribute="width" constant="60" id="s6W-vE-plo"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="joystick.png" translatesAutoresizingMaskIntoConstraints="NO" id="xyn-1q-9sI">
+                            <rect key="frame" x="98" y="53" width="60" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="8MD-Q5-l4I"/>
+                                <constraint firstAttribute="height" constant="60" id="jiq-G2-yEB"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unisef.png" translatesAutoresizingMaskIntoConstraints="NO" id="tor-gM-bgD">
+                            <rect key="frame" x="383" y="143" width="60" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="Vfi-9S-eF7"/>
+                                <constraint firstAttribute="height" constant="60" id="lBh-UD-ai7"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="literature.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cyj-hA-Db1">
+                            <rect key="frame" x="313" y="53" width="60" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="nqp-1M-IxH"/>
+                                <constraint firstAttribute="width" constant="60" id="v6b-b8-wUv"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="code.png" translatesAutoresizingMaskIntoConstraints="NO" id="mD2-Wz-4ma">
+                            <rect key="frame" x="313" y="221" width="60" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="bWo-Uh-vbZ"/>
+                                <constraint firstAttribute="width" constant="60" id="hMD-0X-H4j"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="basketball.png" translatesAutoresizingMaskIntoConstraints="NO" id="KPG-6a-R5P">
+                            <rect key="frame" x="210" y="244" width="60" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="6xs-PN-JFZ"/>
+                                <constraint firstAttribute="height" constant="60" id="iRK-TC-d0D"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.28354997040252555" green="0.82406671517145513" blue="0.9924248964088398" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="centerX" secondItem="poa-kp-UJe" secondAttribute="centerX" id="1UO-Aj-mb4"/>
+                        <constraint firstAttribute="centerX" secondItem="0Lg-RC-ueJ" secondAttribute="centerX" constant="112" id="CM5-nh-i3u"/>
+                        <constraint firstAttribute="centerY" secondItem="poa-kp-UJe" secondAttribute="centerY" id="Jhh-ZL-brR"/>
+                        <constraint firstAttribute="trailing" secondItem="tor-gM-bgD" secondAttribute="trailing" constant="37" id="KCG-r5-1jE"/>
+                        <constraint firstItem="xyn-1q-9sI" firstAttribute="top" secondItem="V7I-fb-cK0" secondAttribute="top" constant="53" id="PBh-iQ-lUY"/>
+                        <constraint firstItem="EM2-Ai-Rda" firstAttribute="top" secondItem="V7I-fb-cK0" secondAttribute="top" constant="26" id="SZQ-fn-lfQ"/>
+                        <constraint firstItem="irS-KE-C2D" firstAttribute="leading" secondItem="V7I-fb-cK0" secondAttribute="leading" constant="33" id="V4M-WV-SDu"/>
+                        <constraint firstAttribute="centerX" secondItem="xyn-1q-9sI" secondAttribute="centerX" constant="112" id="WFs-Fn-IvX"/>
+                        <constraint firstItem="poa-kp-UJe" firstAttribute="centerX" secondItem="EM2-Ai-Rda" secondAttribute="centerX" id="ZA6-16-KH3"/>
+                        <constraint firstAttribute="centerX" secondItem="Cyj-hA-Db1" secondAttribute="centerX" constant="-103" id="ZYJ-UP-nip"/>
+                        <constraint firstItem="irS-KE-C2D" firstAttribute="centerY" secondItem="poa-kp-UJe" secondAttribute="centerY" constant="7" id="aKY-fv-3sx"/>
+                        <constraint firstAttribute="centerX" secondItem="mD2-Wz-4ma" secondAttribute="centerX" constant="-103" id="bgz-tr-07s"/>
+                        <constraint firstItem="tor-gM-bgD" firstAttribute="leading" secondItem="poa-kp-UJe" secondAttribute="trailing" constant="110" id="cET-ed-Dbu"/>
+                        <constraint firstItem="poa-kp-UJe" firstAttribute="centerY" secondItem="tor-gM-bgD" secondAttribute="centerY" constant="-13" id="cNM-xL-Jqs"/>
+                        <constraint firstItem="irS-KE-C2D" firstAttribute="leading" secondItem="V7I-fb-cK0" secondAttribute="leading" constant="37" id="faL-DG-HIH"/>
+                        <constraint firstAttribute="bottom" secondItem="0Lg-RC-ueJ" secondAttribute="bottom" constant="46" id="gJA-qM-UsQ"/>
+                        <constraint firstAttribute="bottom" secondItem="mD2-Wz-4ma" secondAttribute="bottom" constant="39" id="jbW-gL-AYl"/>
+                        <constraint firstItem="Cyj-hA-Db1" firstAttribute="top" secondItem="V7I-fb-cK0" secondAttribute="top" constant="53" id="v73-a5-OBf"/>
+                        <constraint firstItem="poa-kp-UJe" firstAttribute="centerX" secondItem="KPG-6a-R5P" secondAttribute="centerX" id="vGw-7i-J7L"/>
+                        <constraint firstAttribute="trailing" secondItem="tor-gM-bgD" secondAttribute="trailing" constant="38" id="vVl-Jo-yFK"/>
+                        <constraint firstAttribute="bottom" secondItem="KPG-6a-R5P" secondAttribute="bottom" constant="16" id="wqc-Hp-can"/>
+                        <constraint firstItem="poa-kp-UJe" firstAttribute="leading" secondItem="irS-KE-C2D" secondAttribute="trailing" constant="115" id="z9B-wu-KzW"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="V4M-WV-SDu"/>
+                            <exclude reference="z9B-wu-KzW"/>
+                            <exclude reference="cET-ed-Dbu"/>
+                            <exclude reference="vVl-Jo-yFK"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.28354997040000002" green="0.82406671519999997" blue="0.99242489639999998" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="V7I-fb-cK0" secondAttribute="bottom" id="6a9-bL-GDz"/>
+                <constraint firstItem="V7I-fb-cK0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8Ln-Lk-v8a"/>
+                <constraint firstItem="V7I-fb-cK0" firstAttribute="top" secondItem="GGM-M1-hkA" secondAttribute="top" id="9DH-4c-AEH"/>
+                <constraint firstItem="V7I-fb-cK0" firstAttribute="bottom" secondItem="GGM-M1-hkA" secondAttribute="bottom" id="PW3-up-8z3"/>
+                <constraint firstItem="V7I-fb-cK0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Tns-OK-Aka"/>
+                <constraint firstAttribute="trailing" secondItem="V7I-fb-cK0" secondAttribute="trailing" id="WYr-r1-PKz"/>
+                <constraint firstItem="GGM-M1-hkA" firstAttribute="leading" secondItem="V7I-fb-cK0" secondAttribute="leading" id="qeb-T5-ge6"/>
+                <constraint firstItem="V7I-fb-cK0" firstAttribute="trailing" secondItem="GGM-M1-hkA" secondAttribute="trailing" id="rPJ-c3-4d9"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="eastImageView" destination="tor-gM-bgD" id="rdE-tx-eiC"/>
+                <outlet property="interestsLabel" destination="poa-kp-UJe" id="i0B-33-QdP"/>
+                <outlet property="northEastImageView" destination="Cyj-hA-Db1" id="TZQ-Bu-w9h"/>
+                <outlet property="northImageView" destination="EM2-Ai-Rda" id="pqx-Ne-9xm"/>
+                <outlet property="northWestImageView" destination="xyn-1q-9sI" id="BM4-LJ-pvy"/>
+                <outlet property="southEastImageView" destination="mD2-Wz-4ma" id="PyU-5i-Fx5"/>
+                <outlet property="southImageView" destination="KPG-6a-R5P" id="IKi-b3-sDj"/>
+                <outlet property="southWestImageView" destination="0Lg-RC-ueJ" id="So4-fd-VTA"/>
+                <outlet property="westImageView" destination="irS-KE-C2D" id="Mc3-fr-Nvr"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="basketball.png" width="32" height="32"/>
+        <image name="clipperboard.png" width="32" height="32"/>
+        <image name="code.png" width="32" height="32"/>
+        <image name="guitar.png" width="32" height="32"/>
+        <image name="joystick.png" width="32" height="32"/>
+        <image name="laptop.png" width="32" height="32"/>
+        <image name="literature.png" width="32" height="32"/>
+        <image name="unisef.png" width="32" height="32"/>
+    </resources>
+</document>

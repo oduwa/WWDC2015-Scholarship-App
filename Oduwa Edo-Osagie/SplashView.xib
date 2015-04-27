@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14A388a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SplashView" customModule="Oduwa_Edo_Osagie" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="woods_blur.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="toZ-AY-Q0R">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+                <view alpha="0.40000000000000002" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="b6j-6u-Skc">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="woods.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="d3H-6v-pSK">
+                    <rect key="frame" x="160" y="160" width="280" height="280"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="280" id="CcJ-sc-Y9N"/>
+                        <constraint firstAttribute="width" constant="280" id="Jjv-zG-wlb"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oduwa Edo-Osagie" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xws-LZ-sJj">
+                    <rect key="frame" x="8" y="448" width="584" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="yhP-mt-M0F"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="GillSans-LightItalic" family="Gill Sans" pointSize="37"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="d3H-6v-pSK" firstAttribute="centerX" secondItem="Xws-LZ-sJj" secondAttribute="centerX" id="8Yr-ch-Cuo"/>
+                <constraint firstItem="b6j-6u-Skc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="EQX-TN-iaC"/>
+                <constraint firstAttribute="bottom" secondItem="toZ-AY-Q0R" secondAttribute="bottom" id="Khy-g5-vmC"/>
+                <constraint firstItem="b6j-6u-Skc" firstAttribute="top" secondItem="toZ-AY-Q0R" secondAttribute="top" id="dcP-xj-tGT"/>
+                <constraint firstItem="toZ-AY-Q0R" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ewf-bM-FHd"/>
+                <constraint firstItem="d3H-6v-pSK" firstAttribute="centerX" secondItem="toZ-AY-Q0R" secondAttribute="centerX" id="kQ3-vB-JIH"/>
+                <constraint firstAttribute="trailing" secondItem="toZ-AY-Q0R" secondAttribute="trailing" id="ma1-Y7-2rz"/>
+                <constraint firstItem="Xws-LZ-sJj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="olM-8y-I8y"/>
+                <constraint firstItem="b6j-6u-Skc" firstAttribute="leading" secondItem="toZ-AY-Q0R" secondAttribute="leading" id="ooQ-EB-nt8"/>
+                <constraint firstItem="b6j-6u-Skc" firstAttribute="trailing" secondItem="toZ-AY-Q0R" secondAttribute="trailing" id="r5n-7N-AJU"/>
+                <constraint firstItem="toZ-AY-Q0R" firstAttribute="bottom" secondItem="b6j-6u-Skc" secondAttribute="bottom" id="rZx-la-9fJ"/>
+                <constraint firstItem="Xws-LZ-sJj" firstAttribute="top" secondItem="d3H-6v-pSK" secondAttribute="bottom" constant="8" symbolic="YES" id="vWn-WJ-6z1"/>
+                <constraint firstItem="d3H-6v-pSK" firstAttribute="centerY" secondItem="b6j-6u-Skc" secondAttribute="centerY" id="wrn-py-5ie"/>
+            </constraints>
+            <connections>
+                <outlet property="filterView" destination="b6j-6u-Skc" id="u1p-ji-eh7"/>
+                <outlet property="imageView" destination="d3H-6v-pSK" id="yaX-Pf-9bx"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="woods.jpg" width="1493" height="1493"/>
+        <image name="woods_blur.jpg" width="1493" height="1493"/>
+    </resources>
+</document>
